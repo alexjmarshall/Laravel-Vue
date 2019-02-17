@@ -24,6 +24,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // Example of specifying an implementation for an interface
+
+        /* $this->app->bind(
+            \App\Repositories\UserRepository::class,
+            \App\Repositories\DbUserRepository::class
+        ); */
     }
 }

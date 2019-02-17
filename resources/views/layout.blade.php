@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="/css/app.css">
+    <style>
+        .is-complete {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
